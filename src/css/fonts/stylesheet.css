@@ -1,0 +1,42 @@
+/* Example of how to configure fonts (by SaaS transfonter) */
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow ExtraLight'), local('Barlow-ExtraLight'), url(/*to local font*/),
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow Light'), local('Barlow-Light'), url(/*to local font*/),
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow Regular'), local('Barlow-Regular'), url(/*to local font*/),
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow Thin'), local('Barlow-Thin'), url(/*to local font*/),
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow SemiBold'), local('Barlow-SemiBold'), url(/*to local font*/),
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

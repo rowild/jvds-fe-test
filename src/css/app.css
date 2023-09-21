@@ -1,0 +1,200 @@
+/* // Provided by Vuetiful
+@ t ailwind b ase;
+@ t ailwind c omponents;
+@ t ailwind u tilities;
+*/
+
+@font-face {
+  font-family: "barlow-thin";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Barlow Thin'), local('Barlow-Thin'),
+    url("./fonts/Barlow-Thin.woff2") format("woff2"),
+    url("./fonts/Barlow-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "barlow-extralight";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Barlow ExtraLight'), local('Barlow-ExtraLight'),
+    url("./fonts/Barlow-ExtraLight.woff2") format("woff2"),
+    url("./fonts/Barlow-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "barlow-light";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Barlow Light'), local('Barlow-Light'),
+    url("./fonts/Barlow-Light.woff2") format("woff2"),
+    url("./fonts/Barlow-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "barlow-regular";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Barlow Regular'), local('Barlow-Regular'),
+    url("./fonts/Barlow-Regular.woff2") format("woff2"),
+    url("./fonts/Barlow-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "barlow-semibold";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Barlow SemiBold'), local('Barlow-SemiBold'),
+    url("./fonts/Barlow-SemiBold.woff2") format("woff2"),
+    url("./fonts/Barlow-SemiBold.woff") format("woff");
+}
+
+b, strong {
+  font-family: "barlow-semibold", sans-serif;
+}
+
+a {
+  font-family: "regular", sans-serif;
+  color: maroon;
+}
+
+h1 {
+  font-family: "barlow-extralight", sans-serif;
+  font-size: 4rem;
+  color: red;
+}
+
+h2 {
+  font-family: "barlow-light", sans-serif;
+  font-size: 2rem;
+  color: red;
+}
+
+/* app global css */
+/*
+body {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--dark) url("/images/patterns/noisy_net/noisy_net.png") center center repeat;
+  color: var(--color-primary)
+}
+
+.intro-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--k2d);
+}
+
+/* Change via JS * /
+.intro-container,
+.btn-ui-show {
+  opacity: 0;
+}
+
+/*
+#q-app {
+  border: 5px solid blue;
+}
+* /
+
+.rectIndexLayout,
+.rectMainLayout {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 230px;
+  height: 30px;
+  z-index: 20000;
+  background-color: crimson;
+  border-radius: 4px;
+  /* visibility: hidden;
+  opacity: 0; * /
+}
+
+.rectMainLayout {
+  background-color: blue;
+}
+
+
+.nav-container {
+  min-width: 16rem;
+  color: var(--color-brand);
+  z-index: 1000;
+}
+
+p {
+  margin-bottom: .5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.max-w-sm {
+  max-width: 200px;
+}
+
+.border-blue {
+  border: 3px solid blue;
+  border-radius: 1rem;
+}
+
+.border-green {
+  border: 3px solid green;
+  border-radius: 1rem;
+}
+
+.border-yellow {
+  border: 3px solid yellow;
+  border-radius: 1rem;
+}
+
+.rotationLoader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #FFF;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.rotationLoader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-left: 4px solid orange;
+  border-bottom: 4px solid transparent;
+  animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+*/
